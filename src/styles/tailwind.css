@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  body {
+    @apply font-[Poppins];
+  }
+
+  .nav {
+    background: linear-gradient(#2f2936, #261935);
+    /* background: linear-gradient(
+      90deg,
+      #115ca3 0%,
+      #80b4e3 46.16%,
+      #224e76 100%
+    ); */
+  }
+  .footer {
+    background: linear-gradient(
+      91.98deg,
+      #0a3f65 3.69%,
+      #0c4873 45.18%,
+      #132634 80.35%
+    );
+  }
+}
